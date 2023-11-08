@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
  
    for (let i = 0; i < freqData.length; i++) {
      let barHeight = freqData[i] / 2;
-     ctx.fillStyle = 'white';
+     ctx.fillStyle = '#25292c';
      ctx.fillRect(i * 3, canvas.height - barHeight, 2, barHeight);
    }
  }
