@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Веб плеер с визуализацией</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div id="player">
+    <div id="album-art"></div>
+    
+    <div class="track-info">
+        <p id="artist-name">Исполнитель</p>
+        -----------------
+        <p id="track-name">Название трека</p>
+    </div>
+    
+    <div id="player-controls">
+        <button id="prev"><<</button>
+        <button id="play">Play</button>
+        <button id="next">>></button>
+    </div>
+    
+    <input type="range" id="volume-control" min="0" max="1" step="0.1" value="1">
+    <input type="range" id="seek-slider" min="0" max="100" value="0">
+    
+    <div id="visualization"></div>
+</div>
+<script src="/js/index.js"></script>
+
+</body>
+</html>
